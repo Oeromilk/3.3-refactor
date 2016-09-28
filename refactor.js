@@ -307,14 +307,22 @@ console.log(twoPlusTwo);
 // amount of 1 if no param is given.
 
 var speed = 0;
-
-var accelerate = function(amount) {
-  speed += amount;
-};
+//
+// var accelerate = function(amount) {
+//   speed += amount;
+// };
 
 // Put your answer below -------------------------
-
-
+var accelerate = function (amount){
+if (amount == undefined) {
+  var amount = 1;
+  speed = speed + amount;
+  } else {
+    speed = speed + amount;
+  }
+  return speed;
+}
+console.log(accelerate(10));
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
