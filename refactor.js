@@ -23,9 +23,9 @@
 // to a variable containing an anonymous
 // function
 
-function doSomethingCool() {
-  console.log("Something Cool!");
-}
+// function doSomethingCool() {
+//   console.log("Something Cool!");
+// }
 
 // Put your answer below -------------------------
 var doSomethingCool = function(){
@@ -44,11 +44,11 @@ console.log('1st Question: ', doSomethingCool);
 // after 2 seconds. Refactor to use an anonymous
 // function
 
-function sayHi() {
-  alert("Hello, World!");
-}
-
-setTimeout(sayHi, 2000);
+// function sayHi() {
+//   alert("Hello, World!");
+// }
+//
+// setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
 var sayHi = function(){
@@ -99,13 +99,13 @@ the log "y".
 // of the function is 5 lines of code. Refactor
 // this function to do the same thing with 1 line
 
-var reverseStr = function(str) {
-  var arr;
-  arr = str.split("");
-  arr = arr.reverse();
-  str = arr.join("");
-  return str;
-};
+// var reverseStr = function(str) {
+//   var arr;
+//   arr = str.split("");
+//   arr = arr.reverse();
+//   str = arr.join("");
+//   return str;
+// };
 
 // Put your answer below -------------------------
 var reverseStr = function(str) {
@@ -126,23 +126,23 @@ console.log(reverseStr("My name is"));
 // Refactor this function to use an object
 // instead of an if/else statement.
 
-var spanishColor = function(colorName) {
-  if (colorName.toLowerCase() === "rojo") {
-    return "#ff0000";
-  }
-  else if (colorName.toLowerCase() === "blanco") {
-    return "#ffffff";
-  }
-  else if (colorName.toLowerCase() === "azul") {
-    return "#0000ff";
-  }
-  else if (colorName.toLowerCase() === "verde") {
-    return "#00ff00";
-  }
-  else if (colorName.toLowerCase() === "negro") {
-    return "#000000";
-  }
-};
+// var spanishColor = function(colorName) {
+//   if (colorName.toLowerCase() === "rojo") {
+//     return "#ff0000";
+//   }
+//   else if (colorName.toLowerCase() === "blanco") {
+//     return "#ffffff";
+//   }
+//   else if (colorName.toLowerCase() === "azul") {
+//     return "#0000ff";
+//   }
+//   else if (colorName.toLowerCase() === "verde") {
+//     return "#00ff00";
+//   }
+//   else if (colorName.toLowerCase() === "negro") {
+//     return "#000000";
+//   }
+// };
 
 // Put your answer below -------------------------
 var spanishColor =  function(colorName){
@@ -199,7 +199,7 @@ console.log(spanishColor('rojo'));
 // Break it up so that the declaration and
 // assignment are happening on 2 seperate lines.
 
-var foo = "bar";
+// var foo = "bar";
 
 // Put your answer below -------------------------
 var foo;
@@ -219,10 +219,10 @@ foo = "bar";
 // to specify a number of times to call the given
 // function.
 
-var callTenTimes = function(callback) {
-  var range = _.range(10);
-  _.each(range, callback);
-};
+// var callTenTimes = function(callback) {
+//   var range = _.range(10);
+//   _.each(range, callback);
+// };
 
 // Put your answer below -------------------------
 var callNtimes = function(callback, number){
@@ -244,15 +244,15 @@ var callNtimes = function(callback, number){
 
 // HINT: "global scope"
 
-var score = 0;
-
-var increaseScore = function() {
-  score++;
-};
-
-var decreaseScore = function() {
-  score--;
-};
+// var score = 0;
+//
+// var increaseScore = function() {
+//   score++;
+// };
+//
+// var decreaseScore = function() {
+//   score--;
+// };
 
 // Put your answer below -------------------------
 (function(){
@@ -277,11 +277,11 @@ var decreaseScore = function() {
 // twoPlusTwo gets set to `undefined`. Refactor
 // the function to make it work.
 
-var addNumbers = function(numberA, numberB) {
-  console.log(numberA + numberB);
-};
-
-var twoPlusTwo = addNumbers(2,2);
+// var addNumbers = function(numberA, numberB) {
+//   console.log(numberA + numberB);
+// };
+//
+// var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
 var addNumbers = function(numberA, numberB) {
